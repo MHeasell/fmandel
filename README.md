@@ -47,6 +47,6 @@ Examples
 
 ![example-2](examples/2.png?raw=true)
 
-    fmandel -x 0.65 -y 0.45 -f 0.00005 -w 800 -h 600 -s 4 -i 10000
+    fmandel -x -0.65 -y 0.45 -f 0.00005 -w 800 -h 600 -s 4 -i 10000
 
 ![example-3](examples/3.png?raw=true)
