@@ -23,18 +23,18 @@ in the current working directory.
 
 A number of options are supported:
 
-Short | Long             | Default | Description
-------|------------------|---------|------------
--x,   | --camera-x       | 0       | Set the camera X position.
--y,   | --camera-y       | 0       | Set the camera Y position.
--f,   | --frame-height   | 1       | Set the height of the frame from the centre to the top or bottom.
--r,   | --rotation-angle | 0       | Set the camera rotation angle in degrees. The camera rotates anti-clockwise, causing the image to rotate clockwise.
--s,   | --sample-level   | 1       | Set the sample grid density. A value of 2 would take 2x2 (4) samples per pixel.
--i,   | --max-iterations | 100     | Set the maximum number of Mandelbrot iterations per pixel. A higher value increases detail.
--w,   | --width          | 512     | Set the width of the image in pixels.
--h,   | --height         | 512     | Set the height of the image in pixels.
--d,   | --escape-radius  | 2000    | Set the Mandelbrot escape radius. Points leaving this radius are considered to have "escaped" from the set.
-      | --help           |         | Display the help screen.
+|Short | Long             | Default | Description
+|------|------------------|---------|------------
+|-x    | --camera-x       | 0       | Set the camera X position.
+|-y    | --camera-y       | 0       | Set the camera Y position.
+|-f    | --frame-height   | 1       | Set the height of the frame from the centre to the top or bottom.
+|-r    | --rotation-angle | 0       | Set the camera rotation angle in degrees. The camera rotates anti-clockwise, causing the image to rotate clockwise.
+|-s    | --sample-level   | 1       | Set the sample grid density. A value of 2 would take 2x2 (4) samples per pixel.
+|-i    | --max-iterations | 100     | Set the maximum number of Mandelbrot iterations per pixel. A higher value increases detail.
+|-w    | --width          | 512     | Set the width of the image in pixels.
+|-h    | --height         | 512     | Set the height of the image in pixels.
+|-d    | --escape-radius  | 2000    | Set the Mandelbrot escape radius. Points leaving this radius are considered to have "escaped" from the set.
+|      | --help           |         | Display the help screen.
 
 Examples
 --------
